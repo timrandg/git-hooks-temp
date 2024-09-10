@@ -5,9 +5,7 @@ repos:
       - id: trailing-whitespace
         name: Remove trailing whitespace
         description: Automatically remove trailing whitespace from files.
-        types: [text]
 
       - id: end-of-file-fixer
         name: Ensure files end with a newline
         description: Ensure that files end with a newline.
-        types: [text]
