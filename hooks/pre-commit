@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import subprocess
+import sys
+
+def main():
+    print("[hooks/pre-commit]")
+    return_code = subprocess.call("echo Pre commit hook installed. Replace this line with your own command. ok && echo lets test",  shell=True)
+    sys.exit(return_code)
+
+
+if __name__ == "__main__":
+    main()
